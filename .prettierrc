@@ -1,0 +1,21 @@
+{
+  "semi": false,
+  "overrides": [
+    {
+      "files": "*.main.js",
+      "options": {
+        "printWidth": 100,
+        "tabWidth": 2,
+        "semi": true,
+        "singleQuote": true,
+        "endOfLine": "lf"
+      }
+    },
+    {
+      "files": ["*.html"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
