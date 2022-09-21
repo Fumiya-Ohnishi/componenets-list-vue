@@ -3,11 +3,16 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Accodeon from "./components/Accodeon.vue"
 import AccordionTs from "./components/Accordion-ts.vue"
+import AccodeonList from "./components/Accodeon-list.vue";
+import Btn from "./components/Btn.vue";
+import CountBtn from "./components/CountBtn.vue";
+
 </script>
 
 <template>
   <h1 class="text-3xl font-bold underline">Hello world!</h1>
   <Accodeon />
+  <AccodeonList />
   <AccordionTs class="mb-4">
     <template v-slot:title>
       <span class="font-semibold text-xl">Accordion 1</span>
@@ -21,6 +26,8 @@ import AccordionTs from "./components/Accordion-ts.vue"
       </p>
     </template>
   </AccordionTs>
+  <Btn/>
+  <CountBtn />
 </template>
 
 <style scoped lang="scss"></style>
