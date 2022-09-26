@@ -20,9 +20,8 @@ export default {
   },
   methods: {
     countUp(number: number): number {
-      // const number: number = 0
       console.log(number)
-      console.log(typeof number)
+      console.log(typeof this.number)
       return this.number++
     },
     countDoun(number: number): number {
