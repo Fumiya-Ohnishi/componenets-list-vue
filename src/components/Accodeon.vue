@@ -2,10 +2,6 @@
   <div class="c-c-accdeon">
     <vue-collapsible-panel-group>
       <vue-collapsible-panel>
-        <template #title> {{ title }}</template>
-        <template #content> {{ content }} </template>
-      </vue-collapsible-panel>
-      <vue-collapsible-panel>
         <template #title> Panel B Title </template>
         <template #content> Panel B Content </template>
       </vue-collapsible-panel>
